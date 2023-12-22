@@ -1,0 +1,39 @@
+/* footer section */
+footer.footer{
+    border-radius: 0px 100px 0px 0px;
+    background-color: var(--footer-bkg);
+    color: var(--white-txt);
+    text-align: center;
+    padding-top: 4.6875rem;
+
+    &__nav{
+        &__menu {
+            font-family: var(--ff-menus);
+            &__item{
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .footer__nav .menu__item .footer__submenu {
+        background-color: var(--footer-bkg);
+        padding-top: 1.3125em;
+        opacity: .75;
+        .submenu__item a{
+            font-family: var(--ff-menus);
+            font-weight: var(--fw-400);
+            font-size: 1.125rem;
+            line-height: 2.0625rem;
+        }
+    }   
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+    a {
+        color: #dcdfea;
+    }
+}
+
